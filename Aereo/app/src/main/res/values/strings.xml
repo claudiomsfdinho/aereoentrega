@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">AeroShop</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="label_voo_destino">Destino: </string>
+    <string name="label_voo_origem">Origem: </string>
+    <string name="botao_consultar">Consultar</string>
+    <string name="botao_consultar2">Consulta Completa</string>
+    <string name="label_voo_nome">Selecione seus voos.</string>
+    <string name="label_voo_qtdeEscalas">Escalas: </string>
+    <string name="label_voo_valor">Valor: </string>
+
+
+
+    <string-array name="Destino">
+
+        <item>Selecione o Destino</item>
+        <item>Aeroporto Internacional de Viracopos/Campinas</item>
+        <item> Aeroporto Internacional de SÃ£o JosÃ© dos Campos - Professor Urbano Ernesto Stumpf</item>
+        <item>  Aeroporto Internacional de SÃ£o Paulo/Guarulhos - Governador AndrÃ© Franco Montoro</item>
+        <item> Aeroporto de SÃ£o Paulo - Campo de Marte</item>
+        <item> Aeroporto de SÃ£o Paulo/Congonhas</item>
+        <item>Aeroporto Internacional de Campos - Bartolomeu Lisandro</item>
+        <item>Aeroporto de MacaÃ©</item>
+        <item>Aeroporto Internacional do Rio de Janeiro/GaleÃ£o - Antonio Carlos Jobim</item>
+        <item>Aeroporto do Rio de Janeiro - Santos Dumont</item>
+        <item>Aeroporto de JacarepaguÃ¡ - Roberto Marinho</item>
+        <item>Aeroporto Internacional de Curitiba - Afonso Pena</item>
+        <item>Aeroporto Internacional de Foz do IguaÃ§u/Cataratas</item>
+        <item>Aeroporto de Londrina - Governador JosÃ© Richa</item>
+        <item>Aeroporto de Bacacheri</item>
+        <item>Aeroporto Internacional de FlorianÃ³polis/HercÃ­lio Luz</item>
+        <item>Aeroporto Internacional de Navegantes - Ministro Victor Konder</item>
+        <item>Aeroporto de CriciÃºma/Forquilhinha</item>
+        <item>Aeroporto de Joinville/SC â€“ Lauro Carneiro de Loyola</item>
+        <item>Aeroporto Internacional de BagÃ© - Comandante Gustavo Kraemer</item>
+        <item>Aeroporto Internacional de Pelotas/RS â€“ JoÃ£o SimÃµes Lopes Neto</item>
+        <item>Aeroporto Internacional de Porto Alegre - Salgado Filho</item>
+        <item>Aeroporto Internacional de Uruguaiana - Rubem Berta</item>
+        <item>Aeroporto de VitÃ³ria - Eurico de Aguiar Salles</item>
+        <item>Aeroporto de Aracaju</item>
+        <item>Aeroporto Internacional de MaceiÃ³ - Zumbi dos Palmares</item>
+        <item>Aeroporto de Petrolina - Senador Nilo Coelho</item>
+        <item>Aeroporto Internacional do Recife/Guararapes - Gilberto Freyre</item>
+        <item>Aeroporto Internacional de Porto Velho - Gov. Jorge Teixeira de Oliveira</item>
+        <item>Aeroporto Internacional de BrasÃ­lia - Presidente Juscelino Kubitschek</item>
+
+    </string-array>
+
+    <string-array name="Origem">
+
+        <item>Selecione a Origem</item>
+        <item>Aeroporto Internacional de Viracopos/Campinas</item>
+        <item> Aeroporto Internacional de SÃ£o JosÃ© dos Campos - Professor Urbano Ernesto Stumpf</item>
+        <item>  Aeroporto Internacional de SÃ£o Paulo/Guarulhos - Governador AndrÃ© Franco Montoro</item>
+        <item> Aeroporto de SÃ£o Paulo - Campo de Marte</item>
+        <item> Aeroporto de SÃ£o Paulo/Congonhas</item>
+        <item>Aeroporto Internacional de Campos - Bartolomeu Lisandro</item>
+        <item>Aeroporto de MacaÃ©</item>
+        <item>Aeroporto Internacional do Rio de Janeiro/GaleÃ£o - Antonio Carlos Jobim</item>
+        <item>Aeroporto do Rio de Janeiro - Santos Dumont</item>
+        <item>Aeroporto de JacarepaguÃ¡ - Roberto Marinho</item>
+        <item>Aeroporto Internacional de Curitiba - Afonso Pena</item>
+        <item>Aeroporto Internacional de Foz do IguaÃ§u/Cataratas</item>
+        <item>Aeroporto de Londrina - Governador JosÃ© Richa</item>
+        <item>Aeroporto de Bacacheri</item>
+        <item>Aeroporto Internacional de FlorianÃ³polis/HercÃ­lio Luz</item>
+        <item>Aeroporto Internacional de Navegantes - Ministro Victor Konder</item>
+        <item>Aeroporto de CriciÃºma/Forquilhinha</item>
+        <item>Aeroporto de Joinville/SC â€“ Lauro Carneiro de Loyola</item>
+        <item>Aeroporto Internacional de BagÃ© - Comandante Gustavo Kraemer</item>
+        <item>Aeroporto Internacional de Pelotas/RS â€“ JoÃ£o SimÃµes Lopes Neto</item>
+        <item>Aeroporto Internacional de Porto Alegre - Salgado Filho</item>
+        <item>Aeroporto Internacional de Uruguaiana - Rubem Berta</item>
+        <item>Aeroporto de VitÃ³ria - Eurico de Aguiar Salles</item>
+        <item>Aeroporto de Aracaju</item>
+        <item>Aeroporto Internacional de MaceiÃ³ - Zumbi dos Palmares</item>
+        <item>Aeroporto de Petrolina - Senador Nilo Coelho</item>
+        <item>Aeroporto Internacional do Recife/Guararapes - Gilberto Freyre</item>
+        <item>Aeroporto Internacional de Porto Velho - Gov. Jorge Teixeira de Oliveira</item>
+        <item>Aeroporto Internacional de BrasÃ­lia - Presidente Juscelino Kubitschek</item>
+
+    </string-array>
+
+
+    <string name="title_activity_lista_voo">Seleção de Voos</string>
+
+    <string name="txt_lista">Nenhum voo</string>
+
+    <string name="title_activity_detalhe_voo">Voo Escolhido</string>
+
+</resources>

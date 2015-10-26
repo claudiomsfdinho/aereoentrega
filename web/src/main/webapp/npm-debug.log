@@ -1,0 +1,88 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.14.2
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies loading dependencies from /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp/package.json
+6 warn package.json projeto_aeronave@1.0.0 No description
+7 warn package.json projeto_aeronave@1.0.0 No repository field.
+8 warn package.json projeto_aeronave@1.0.0 No README data
+9 verbose install where, deps [ '/Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp',
+9 verbose install   [ 'jquery-number', 'bootstrap', 'jquery' ] ]
+10 verbose install where, peers [ '/Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp',
+10 verbose install   [] ]
+11 verbose installManyTop reading for lifecycle /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp/package.json
+12 info preinstall projeto_aeronave@1.0.0
+13 verbose installManyTop reading scoped package data from /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp/node_modules/bootstrap/package.json
+14 verbose installManyTop reading scoped package data from /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp/node_modules/jquery/package.json
+15 info package.json jquery@2.1.4 No license field.
+16 verbose readDependencies loading dependencies from /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp/package.json
+17 verbose targetResolver reading package data from /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp/node_modules/bootstrap/package.json
+18 verbose targetResolver reading package data from /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp/node_modules/jquery/package.json
+19 verbose already installed skipping jquery@^2.1.4 /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp
+20 silly cache add args [ 'jquery-number@git+ssh://git@github.com/customd/jquery-number.git',
+20 silly cache add   null ]
+21 verbose cache add spec jquery-number@git+ssh://git@github.com/customd/jquery-number.git
+22 verbose already installed skipping bootstrap@^3.3.5 /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp
+23 silly cache add parsed spec { raw: 'jquery-number@git+ssh://git@github.com/customd/jquery-number.git',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'jquery-number',
+23 silly cache add   rawSpec: 'git+ssh://git@github.com/customd/jquery-number.git',
+23 silly cache add   spec: 'git+ssh://git@github.com/customd/jquery-number.git',
+23 silly cache add   type: 'hosted',
+23 silly cache add   hosted:
+23 silly cache add    { type: 'github',
+23 silly cache add      ssh: 'git@github.com:customd/jquery-number.git',
+23 silly cache add      sshUrl: 'git+ssh://git@github.com/customd/jquery-number.git',
+23 silly cache add      httpsUrl: 'git+https://github.com/customd/jquery-number.git',
+23 silly cache add      gitUrl: 'git://github.com/customd/jquery-number.git',
+23 silly cache add      shortcut: 'github:customd/jquery-number',
+23 silly cache add      directUrl: 'https://raw.githubusercontent.com/customd/jquery-number/master/package.json' } }
+24 verbose addRemoteGit caching git+ssh://git@github.com/customd/jquery-number.git
+25 verbose addRemoteGit git+ssh://git@github.com/customd/jquery-number.git is a repository hosted by github
+26 silly tryClone cloning git+ssh://git@github.com/customd/jquery-number.git via git+ssh://git@github.com/customd/jquery-number.git
+27 verbose tryClone ssh-git-github-com-customd-jquery-number-git-fc2b30af not in flight; caching
+28 info git [ 'config', '--get', 'remote.origin.url' ]
+29 silly validateExistingRemote git+ssh://git@github.com/customd/jquery-number.git remote.origin.url: ssh://git@github.com/customd/jquery-number.git
+30 verbose validateExistingRemote git+ssh://git@github.com/customd/jquery-number.git is updating existing cached remote /Users/gtakeda/.npm/_git-remotes/ssh-git-github-com-customd-jquery-number-git-fc2b30af
+31 info git [ 'fetch', '-a', 'origin' ]
+32 verbose updateRemote git fetch -a origin (ssh://git@github.com/customd/jquery-number.git)
+33 verbose setPermissions git+ssh://git@github.com/customd/jquery-number.git set permissions on /Users/gtakeda/.npm/_git-remotes/ssh-git-github-com-customd-jquery-number-git-fc2b30af
+34 verbose resolveHead git+ssh://git@github.com/customd/jquery-number.git original treeish: master
+35 info git [ 'rev-list', '-n1', 'master' ]
+36 silly resolveHead git+ssh://git@github.com/customd/jquery-number.git resolved treeish: 371cc507f05323844d6bd120cef20d847df16abd
+37 verbose resolveHead git+ssh://git@github.com/customd/jquery-number.git resolved Git URL: git+ssh://git@github.com/customd/jquery-number.git#371cc507f05323844d6bd120cef20d847df16abd
+38 silly resolveHead Git working directory: /var/folders/6_/kfh6q8xj64s5rq_8bfzpqjrc0000gn/T/npm-11796-00bedaec/git-cache-b6dc0deefbc1/371cc507f05323844d6bd120cef20d847df16abd
+39 info git [ 'clone',
+39 info git   '/Users/gtakeda/.npm/_git-remotes/ssh-git-github-com-customd-jquery-number-git-fc2b30af',
+39 info git   '/var/folders/6_/kfh6q8xj64s5rq_8bfzpqjrc0000gn/T/npm-11796-00bedaec/git-cache-b6dc0deefbc1/371cc507f05323844d6bd120cef20d847df16abd' ]
+40 verbose cloneResolved git+ssh://git@github.com/customd/jquery-number.git clone Cloning into '/var/folders/6_/kfh6q8xj64s5rq_8bfzpqjrc0000gn/T/npm-11796-00bedaec/git-cache-b6dc0deefbc1/371cc507f05323844d6bd120cef20d847df16abd'...
+40 verbose cloneResolved done.
+41 info git [ 'checkout', '371cc507f05323844d6bd120cef20d847df16abd' ]
+42 verbose checkoutTreeish git+ssh://git@github.com/customd/jquery-number.git checkout Note: checking out '371cc507f05323844d6bd120cef20d847df16abd'.
+42 verbose checkoutTreeish
+42 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+42 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+42 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+42 verbose checkoutTreeish
+42 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+42 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+42 verbose checkoutTreeish
+42 verbose checkoutTreeish   git checkout -b new_branch_name
+42 verbose checkoutTreeish
+42 verbose checkoutTreeish HEAD is now at 371cc50... Created bower.json
+43 error addLocal Could not install /var/folders/6_/kfh6q8xj64s5rq_8bfzpqjrc0000gn/T/npm-11796-00bedaec/git-cache-b6dc0deefbc1/371cc507f05323844d6bd120cef20d847df16abd
+44 verbose stack Error: EISDIR, read
+44 verbose stack     at Error (native)
+45 verbose cwd /Users/gtakeda/git/web-comprar-passagem-aerea/web-comprar-passagem-aerea/src/main/webapp
+46 error Darwin 14.5.0
+47 error argv "node" "/usr/local/bin/npm" "install"
+48 error node v0.12.7
+49 error npm  v2.14.2
+50 error code EISDIR
+51 error errno -21
+52 error eisdir EISDIR, read
+52 error eisdir This is most likely not a problem with npm itself
+52 error eisdir and is related to npm not being able to find a package.json in
+52 error eisdir a package you are trying to install.
+53 verbose exit [ -21, true ]
